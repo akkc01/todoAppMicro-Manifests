@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: frontend-config
+  namespace: dev-todo-app
+data:
+  REACT_APP_GET_TASKS_API_BASE_URL: "http://api-get-task-service"
+  REACT_APP_DELETE_TASK_API_BASE_URL: "http://api-del-task-service"
+  REACT_APP_CREATE_TASK_API_BASE_URL: "http://api-add-task-service"
