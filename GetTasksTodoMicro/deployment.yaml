@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: dev-get-task
-        image: akkc01/gettasksmicro:7befff9fb5e4b51d71d7edaf06fa06bff319d377
+        image: akkc01/gettasksmicro:e899b4aea9fbf6a141844847ae55945deee8c3ed
         ports:
         - containerPort: 8000
         env:

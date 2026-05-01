@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: dev-add-task
-        image: akkc01/addtasksmicro:7befff9fb5e4b51d71d7edaf06fa06bff319d377
+        image: akkc01/addtasksmicro:59e18e856ee091e4f37091a88e4f18b8ea8fdac9
         ports:
         - containerPort: 8000
         env:

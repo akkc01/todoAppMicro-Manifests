@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: dev-del-task
-        image: akkc01/deletetasksmicro:7befff9fb5e4b51d71d7edaf06fa06bff319d377
+        image: akkc01/deletetasksmicro:fe91fb11f84617630fe69bba3f65e8a0cb713529
         ports:
         - containerPort: 8000
         env:

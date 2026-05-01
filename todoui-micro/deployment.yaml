@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: todoui-micro
-        image: akkc01/todoui-micro:latest
+        image: akkc01/todouimicro:1324462b842d8d084f8c2476258ee2873d678dfe
         ports:
         - containerPort: 80
 
